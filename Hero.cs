@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LexiconGame
 {
-    public class Hero
+    public class Hero : Creature
     {
         public Hero()
         {

@@ -7,6 +7,9 @@ namespace LexiconGame
         public List<Item> items { get; set; } = new List<Item>;
         private readonly string symbol;
 
+        //ToDO: Remove?
+        public Creature enemies { get; set; }
+
         public Cell()
         {
             symbol = ".";
